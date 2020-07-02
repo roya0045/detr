@@ -6,8 +6,8 @@ import torch
 from models.matcher import HungarianMatcher
 from models.position_encoding import PositionEmbeddingSine, PositionEmbeddingLearned
 from models.backbone import Backbone, Joiner, BackboneBase
-from detr_util import box_ops
-from detr_util.misc import nested_tensor_from_tensor_list
+from util import box_ops
+from util.misc import nested_tensor_from_tensor_list
 from hubconf import detr_resnet50, detr_resnet50_panoptic
 
 

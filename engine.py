@@ -9,7 +9,7 @@ from typing import Iterable
 
 import torch
 
-import detr_util.misc as utils
+import util.misc as utils
 from datasets.coco_eval import CocoEvaluator
 from datasets.panoptic_eval import PanopticEvaluator
 
